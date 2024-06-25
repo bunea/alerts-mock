@@ -35,7 +35,7 @@
   },
   "feed-3": {
     "id": "feed-3",
-    "title": "Updates every 10 minutes",
+    "title": "Updates every 2 minutes",
     "update_every": "2m",
     "updated_at": "2024-05-14T14:35:00Z",
     "entries": []
