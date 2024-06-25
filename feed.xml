@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>{{.ID}}</id>
+    <title>Google Alert - Titan</title>
+    <title>{{.Title}}</title>
+    <link href="https://www.google.com/alerts/feeds/17561506469619770663/17987841835991640983" rel="self"></link>
+    <updated>{{.UpdatedAt.Format "2006-01-02T15:04:05Z"}}</updated>
+    {{- range .Entries}}
+    <entry>
+        <id>{{.ID}}</id>
+        <title type="html">{{.Title}}</title>
+        <link href="https://example.com/url?url={{.Href}}"></link>
+        <published>{{.PublishedAt.Format "2006-01-02T15:04:05Z"}}</published>
+        <updated>{{.UpdatedAt.Format "2006-01-02T15:04:05Z"}}</updated>
+        <content type="html">{{.Content}}</content>
+        <author>
+            <name>{{.AuthorName}}</name>
+        </author>
+    </entry>
+    {{- end}}
+</feed>

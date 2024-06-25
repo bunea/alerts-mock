@@ -1,0 +1,43 @@
+{
+  "feed-1": {
+    "id": "feed-1",
+    "title": "Feed one",
+    "updated_at": "2024-05-14T14:34:41Z",
+    "entries": [
+      {
+        "id": "feed-1-entry-1",
+        "title": "Entry title",
+        "published_at": "2024-05-14T14:34:41Z",
+        "updated_at": "2024-05-14T14:34:41Z",
+        "href": "https://www.hotnews.ro/stiri-esential-27132277-parlamentul-adoptat-legea-care-lasa-fara-carnet-timp-10-ani-soferii-prinsi-bauti-volan.htm",
+        "image_url": "https://placehold.co/600x400",
+        "content": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "author_name": "John Doe"
+      },
+      {
+        "id": "feed-1-entry-2",
+        "title": "Other entry title",
+        "published_at": "2024-05-14T14:34:41Z",
+        "updated_at": "2024-05-14T14:34:41Z",
+        "href": "https://www.hotnews.ro/stiri-razboi_ucraina-27132536-noul-ministru-rus-apararii-face-declaratie-rara-despre-pierderile-vieti-randul-trupelor-moscovei-din-ucraina.htm",
+        "image_url": "https://placehold.co/800x600",
+        "content": "is simply dummy text",
+        "author_name": ""
+      }
+    ]
+  },
+  "feed-2": {
+    "id": "feed-2",
+    "title": "Updates each 30 seconds",
+    "update_every": "30s",
+    "updated_at": "2024-05-14T14:35:00Z",
+    "entries": []
+  },
+  "feed-3": {
+    "id": "feed-3",
+    "title": "Updates every 10 minutes",
+    "update_every": "2m",
+    "updated_at": "2024-05-14T14:35:00Z",
+    "entries": []
+  }
+}
